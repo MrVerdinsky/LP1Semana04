@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPCPerks", "NPCPerks\NPCPerks.csproj", "{F2738690-8763-43A6-AE1E-58814DDAE0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPCPerksWithMethods", "NPCPerksWithMethods\NPCPerksWithMethods.csproj", "{17701737-A775-459A-ADAB-E5C11D9661B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstMethod", "MyFirstMethod\MyFirstMethod.csproj", "{D02854F5-A507-4C18-B30A-5B21EA3D655E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2738690-8763-43A6-AE1E-58814DDAE0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2738690-8763-43A6-AE1E-58814DDAE0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2738690-8763-43A6-AE1E-58814DDAE0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2738690-8763-43A6-AE1E-58814DDAE0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17701737-A775-459A-ADAB-E5C11D9661B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17701737-A775-459A-ADAB-E5C11D9661B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17701737-A775-459A-ADAB-E5C11D9661B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17701737-A775-459A-ADAB-E5C11D9661B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02854F5-A507-4C18-B30A-5B21EA3D655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02854F5-A507-4C18-B30A-5B21EA3D655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02854F5-A507-4C18-B30A-5B21EA3D655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02854F5-A507-4C18-B30A-5B21EA3D655E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
